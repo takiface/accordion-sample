@@ -1,0 +1,42 @@
+body{
+    font-family: sans-serif;
+    background: #f7f7f7;
+    padding: 40px;
+}
+
+/*アコーディオン全体の枠*/
+.accordion{
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/*各項目*/
+.accordion-title{
+    width: 100%;
+    background: none;
+    border: none;
+    text-align: left;
+    font-size: 1.1rem;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #1e3c72;
+    transition: 0.3s;
+}
+
+/*ホバー時に軽い反応*/
+.accordion-title:hover{
+    opacity: 0.7;
+}
+
+/*中身（最初は非表示）*/
+.accordion-content{
+    display: none;
+    padding: 10px;
+    color: #333;
+    line-height: 1.6;
+}
